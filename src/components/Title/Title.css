@@ -26,7 +26,7 @@
 @media only screen and (max-width: 1500px) {
 
     .Title {
-        top: 40%;
+        top: 35%;
         right: 5%;
     }
 
@@ -35,12 +35,16 @@
     }
 
     .Title h6 {
-        padding-top: 14vmin;
+        padding-top: 15vmin;
     }
 }
 
 @media only screen and (max-width: 500px) {
 
+    .Title {
+        top: 40%;
+    }
+    
     .Title h6 {
         font-size: 3.5vmin;
         padding-top: 12vmin;
