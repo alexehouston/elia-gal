@@ -42,6 +42,7 @@
 @media only screen and (max-width: 500px) {
 
     .Title h6 {
+        font-size: 3.5vmin;
         padding-top: 12vmin;
     }
 }
