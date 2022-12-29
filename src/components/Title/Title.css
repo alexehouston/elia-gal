@@ -33,11 +33,15 @@
     .Title h1 {
         width: 100vw;
     }
+
+    .Title h6 {
+        padding-top: 14vmin;
+    }
 }
 
 @media only screen and (max-width: 500px) {
 
-    .Title {
-        right: 1%;
+    .Title h6 {
+        padding-top: 12vmin;
     }
-  }
+}
