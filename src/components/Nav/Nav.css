@@ -1,0 +1,47 @@
+.Nav ul {
+    font-size: 2vmin;
+    font-weight: 200;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 5vmin;
+    padding: 2vmin 6vmin;
+    animation: fadeInDown 2s;
+}
+
+.Nav h1 {
+    font-family: 'Ragasta', serif;
+    font-size: 4vmin;
+    letter-spacing: 1vmin;
+    position: absolute;
+    left: 5vmin;
+    top: .5vmin;
+}
+
+#elia {
+    animation: fadeInLeft 2s;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -.5vmin;
+    left: 0;
+    background-color: var(--bluegrey);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

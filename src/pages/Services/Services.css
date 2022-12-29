@@ -1,0 +1,37 @@
+.Services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    animation: fadeInUp 1s;
+}
+
+.Services h1 {
+    width: 50vmin;
+    border-bottom: 3px solid var(--bluegrey);
+    text-align: center;
+}
+
+.service-list {
+    font-size: 3vmin;
+    letter-spacing: 1vmin;
+    padding: 0 0 0vmin 50vmin;
+}
+
+.service-list-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    font-weight: 200;
+    font-size: 2.5vmin;
+    letter-spacing: 0;
+}
+
+.service-price {
+    font-weight: 400;
+}

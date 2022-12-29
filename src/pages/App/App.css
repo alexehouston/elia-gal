@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Ragasta';
+  src: url('/public/assets/Ragasta.ttf');
+}
+
+:root {
+  --deepnavy: #1B263B;
+  --ashblue: #415A77;
+  --bluegrey: #778DA9;
+  --platinum: #E0E1DD;
+}
+
+html {
+  background-image: url('/public/assets/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  font-family: 'Lexend Exa', sans-serif;
+  color: var(--platinum);
+}
+
+h1 {
+  font-family: 'Ragasta', serif;
+}
+
+a {
+  color: var(--platinum);
+  text-decoration: none;
+}

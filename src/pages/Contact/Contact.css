@@ -1,0 +1,51 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    animation: fadeInUp 1s;
+}
+
+.contact-info {
+    font-size: 3vmin;
+    letter-spacing: 1vmin;
+    padding: 0 0 0 50vmin;
+    text-align: center;
+}
+
+.contact-info h1 {
+    width: 50vmin;
+    border-bottom: 3px solid var(--bluegrey);
+}
+
+i {
+    font-size: 5vmin;
+    margin: -5vmin 0 8vmin 0;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vmin;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmin;
+    font-weight: 200;
+    letter-spacing: 0;
+    background-color: rgb(70, 63, 59);
+    border: 1px solid rgb(57, 51, 47);
+    height: 5vmin;
+    width: 30vmin;
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    animation: fadeInUp 1s;
+}
+
+.about-info h1 {
+    width: 50vmin;
+    border-bottom: 3px solid var(--bluegrey);
+}
+
+.about-info {
+    font-size: 3vmin;
+    letter-spacing: 1vmin;
+    padding-left: 50vmin;
+    text-align: center;
+}
+
+.about-info p {
+    font-size: 2vmin;
+    font-weight: 200;
+    letter-spacing: 0;
+    width: 50vmin;
+}

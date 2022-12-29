@@ -1,0 +1,24 @@
+.Title {
+    position: fixed;
+    width: 50vw;
+    right: 0;
+    top: 30%;
+    animation: fadeInRight 3s;
+}
+
+.Title h1, .Title h6 {
+    position: absolute;
+}
+
+.Title h1 {
+    font-family: 'Ragasta', serif;
+    font-size: 15vmin;
+    animation: fadeInLeft 3s;
+}
+
+.Title h6 {
+    font-weight: 200;
+    font-size: 3vmin;
+    letter-spacing: .5vmin;
+    padding: 16.5vmin 0 0 2.5vmin;
+}
