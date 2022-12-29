@@ -26,14 +26,18 @@
 @media only screen and (max-width: 1500px) {
 
     .Title {
-        top: 45%;
+        top: 40%;
         right: 5%;
+    }
+
+    .Title h1 {
+        width: 100vw;
     }
 }
 
 @media only screen and (max-width: 500px) {
 
     .Title {
-        top: 40%;
+        right: 1%;
     }
   }
