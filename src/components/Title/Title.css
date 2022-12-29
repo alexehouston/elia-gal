@@ -22,3 +22,18 @@
     letter-spacing: .5vmin;
     padding: 16.5vmin 0 0 2.5vmin;
 }
+
+@media only screen and (max-width: 1500px) {
+
+    .Title {
+        top: 45%;
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Title {
+        top: 40%;
+    }
+  }

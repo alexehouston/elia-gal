@@ -49,3 +49,26 @@ i {
     width: 30vmin;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 1500px) {
+
+    .Contact {
+        animation: fadeInRight 1s;
+    }
+
+    .contact-info {
+        padding-left: 45vmin;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    i {
+        font-size: 6vmin;
+    }
+    
+    .button {
+        font-size: 2.5vmin;
+        width: 35vmin;
+    }
+}

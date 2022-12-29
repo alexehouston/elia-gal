@@ -45,3 +45,16 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+@media only screen and (max-width: 1500px) {
+    
+    .Nav ul {
+        font-size: 2.5vmin;
+        column-gap: 3.5vmin;
+        padding: 2vmin 4vmin;
+    }
+
+    #elia {
+        top: 1.5vmin;
+    }
+}

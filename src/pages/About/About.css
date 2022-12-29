@@ -17,6 +17,10 @@
 }
 
 .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 3vmin;
     letter-spacing: 1vmin;
     padding-left: 50vmin;
@@ -28,4 +32,23 @@
     font-weight: 200;
     letter-spacing: 0;
     width: 50vmin;
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .About {
+        animation: fadeInRight 1s;
+    }
+
+    .about-info {
+        padding-left: 45vmin;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .about-info p {
+        font-size: 2.5vmin;
+        width: 40vmin;
+    }
 }

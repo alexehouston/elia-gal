@@ -7,7 +7,6 @@
 
 :root {
   --deepnavy: #1B263B;
-  --ashblue: #415A77;
   --bluegrey: #778DA9;
   --platinum: #E0E1DD;
 }
@@ -28,4 +27,11 @@ h1 {
 a {
   color: var(--platinum);
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1500px) {
+
+  html {
+    background-position: 10%;
+  }
 }

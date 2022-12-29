@@ -35,3 +35,21 @@
 .service-price {
     font-weight: 400;
 }
+
+@media only screen and (max-width: 1500px) {
+
+    .Services {
+        animation: fadeInRight 1s;
+    }
+
+    .service-list {
+        padding-left: 45vmin;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .service-list-items {
+        font-size: 3vmin;
+    }
+}
