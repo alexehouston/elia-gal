@@ -9,8 +9,8 @@ export default function Contact() {
                 &nbsp;&nbsp;&nbsp;
                 <a href="mailto:galxbeauty@gmail.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>
                 <div className="forms">
-                    <div className="button">model form</div>
-                    <div className="button">nbr extensions form</div>
+                    <div className="button"><a href="https://form.jotform.com/galxbeauty/information-request-form" target="_blank" rel="noreferrer">model form</a></div>
+                    <div className="button"><a href="https://form.jotform.com/223628423841052" target="_blank" rel="noreferrer">nbr extensions form</a></div>
                 </div>
             </div>
         </div>

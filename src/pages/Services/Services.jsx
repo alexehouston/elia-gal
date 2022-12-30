@@ -1,6 +1,6 @@
 import './Services.css';
 
-export default function Services() {
+export default function Services({ setCurrentPage }) {
     return (
         <div className="Services">
             <div className="service-list">
@@ -11,12 +11,13 @@ export default function Services() {
                         <p>women's haircut</p>
                         <p>men's haircut</p>
                         <p>nbr extensions</p>
+                        <p className="nbr" onClick={() => setCurrentPage('nbr')}>learn more</p>
                     </div>
                     <div className="service-price">
                         <p>$125</p>
                         <p>$250</p>
                         <p>$150</p>
-                        <p>$450+</p>
+                        <p>varies</p>
                     </div>
                 </div>
             </div>
