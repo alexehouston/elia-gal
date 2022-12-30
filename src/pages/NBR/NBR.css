@@ -47,8 +47,8 @@
     text-transform: uppercase;
     color: var(--bluegrey);
     position: absolute;
-    bottom: -10%;
-    right: 30%;
+    bottom: 10%;
+    right: 32%;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -70,7 +70,6 @@
     }
 
     .scroll {
-        bottom: -10%;
         right: 20%;
         text-shadow: rgb(50, 50, 50) 1px 0 5px;
         color: white;
