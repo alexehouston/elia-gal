@@ -61,7 +61,7 @@ i {
     width: 28vmin;
     margin: 0 auto;
     padding: 2vmin;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .salon h2 {
@@ -90,6 +90,18 @@ i {
 
     .contact-info {
         padding-left: 45vmin;
+    }
+
+    .salon {
+        width: 40vmin;
+    }
+    
+    .salon h2 {
+        font-size: 5vmin;
+    }
+
+    .salon li {
+        font-size: 2.5vmin;
     }
 }
 
