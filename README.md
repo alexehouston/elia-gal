@@ -14,7 +14,7 @@
 
 Elia is a hairstylist and NBR extension specialist based in Los Angeles, CA. Elia's clients are able to navigate to this website in order to browse services, book appointments and stay connected with Elia.
 
-<a href="https://eliarene.netlify.app/" target=”_blank”>Deployed Link</a>
+<a href="https://eliagal.com/" target=”_blank”>Deployed Link</a>
 
 <br>
 
