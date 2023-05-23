@@ -18,6 +18,7 @@ html {
   min-height: 100%;
   font-family: 'Lexend Exa', sans-serif;
   color: var(--platinum);
+  overflow: overlay;
 }
 
 h1 {

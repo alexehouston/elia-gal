@@ -5,9 +5,9 @@ export default function Contact() {
         <div className="Contact">
             <div className="contact-info">
                 <h1>contact elia</h1><br/>
-                <a href="https://www.instagram.com/eliarene/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/eliarene/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
                 &nbsp;&nbsp;&nbsp;
-                <a href="mailto:galxbeauty@gmail.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>
+                <a href="mailto:galxbeauty@gmail.com" target="_blank" rel="noreferrer"><i className="fa-regular fa-envelope"></i></a>
                 <div className="salon">
                     <h2>KASHMIR</h2>
                     <li className="hover"><a href="https://www.kashmirextensions.com/" target="_blank" rel="noreferrer">kashmirextensions.com</a></li>
