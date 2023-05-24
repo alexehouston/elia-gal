@@ -81,13 +81,22 @@ i:hover {
     border-bottom: 2px solid var(--bluegrey);
 }
 
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vmin;
+}
+
 .salon li {
     list-style-type: none;
     padding: 0;
     font-size: 1.75vmin;
     letter-spacing: 0;
     font-weight: 200;
-    margin-top: 1.5vmin;
+}
+
+#kashmir-ig {
+    padding: 0 2vmin;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -116,7 +125,11 @@ i:hover {
 @media only screen and (max-width: 500px) {
 
     i {
-        font-size: 6vmin;
+        font-size: 5.5vmin;
+    }
+
+    .contact-icons {
+        padding-top: 6vmin;
     }
     
     .button {
