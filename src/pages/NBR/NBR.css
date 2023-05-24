@@ -29,6 +29,7 @@
     padding: 0 0 0 50vmin;
     width: 40vw;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .nbr-questions h4 {
@@ -38,6 +39,7 @@
 .nbr-questions p {
     font-size: 1.5vmin;
     font-weight: 200;
+    padding: 0 2vmin;
 }
 
 .scroll {

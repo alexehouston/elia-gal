@@ -24,8 +24,13 @@
 }
 
 i {
-    font-size: 5vmin;
+    font-size: 4vmin;
     margin: -5vmin 0 4vmin 0;
+    transition: all 0.5s ease;
+}
+
+i:hover {
+    transform: scale(1.1);
 }
 
 .forms {
@@ -48,11 +53,13 @@ i {
     border: 1px solid rgb(57, 51, 47);
     height: 5vmin;
     width: 30vmin;
-    border-radius: 10px;
+    border-radius: 25px;
+    transition: all 0.5s ease;
 }
 
 .button:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .salon {
@@ -62,6 +69,7 @@ i {
     margin: 0 auto;
     padding: 2vmin;
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
 }
 
 .salon h2 {
