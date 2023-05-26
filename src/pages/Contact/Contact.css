@@ -84,7 +84,8 @@ i:hover {
 .contact-icons {
     display: flex;
     justify-content: center;
-    padding-top: 4vmin;
+    column-gap: 2vmin;
+    padding-top: 5vmin;
 }
 
 .salon li {
@@ -93,10 +94,6 @@ i:hover {
     font-size: 1.75vmin;
     letter-spacing: 0;
     font-weight: 200;
-}
-
-#kashmir-ig {
-    padding: 0 2vmin;
 }
 
 @media only screen and (max-width: 1500px) {
