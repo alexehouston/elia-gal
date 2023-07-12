@@ -1,0 +1,14 @@
+.Social {
+    display: flex;
+    column-gap: 5vmin;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+@media (max-width: 500px) {
+    .Social {
+        position: fixed;
+        left: 39%;
+    }
+}

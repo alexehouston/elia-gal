@@ -1,6 +1,6 @@
 .Nav ul {
     font-size: 2vmin;
-    font-weight: 200;
+    font-weight: 300;
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -11,9 +11,8 @@
 }
 
 .Nav h1 {
-    font-family: 'Mitera', serif;
-    font-size: 3vmin;
-    letter-spacing: 1vmin;
+    font-family: var(--header-font);
+    font-size: 3.5vmin;
     position: absolute;
     left: 5vmin;
     top: .5vmin;

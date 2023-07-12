@@ -2,7 +2,7 @@ import './About.css';
 
 export default function About() {
     return (
-        <div className="About">
+        <div className="animate__animated animate__fadeInUp animate__slow">
             <div className="about-info">
                 <h1>about elia</h1>
                 <p>Elia is a hairstylist specializing in extensions and dry cutting. With a passion for transformations and helping clients feel beautiful, Elia is known for creating natural, lived-in looks, and is skilled in techniques such as natural beaded rows (NBR).</p>

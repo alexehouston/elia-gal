@@ -6,7 +6,6 @@ export default function Nav({ currentPage, setCurrentPage }) {
             <ul>
                 {currentPage === 'home' ? (
                     <>
-                        <li className="hover">appointments</li>
                         <li className="hover" onClick={() => setCurrentPage('services')}>services</li>
                         <li className="hover" onClick={() => setCurrentPage('about')}>about</li>
                         <li className="hover" onClick={() => setCurrentPage('contact')}>contact</li>
@@ -14,7 +13,6 @@ export default function Nav({ currentPage, setCurrentPage }) {
                 ) : (
                     <>
                         <h1 className="hover" id="elia" onClick={() => setCurrentPage('home')}>elia gal</h1>
-                        <li>appointments</li>
                         <li className="hover" onClick={() => setCurrentPage('services')}>services</li>
                         <li className="hover" onClick={() => setCurrentPage('about')}>about</li>
                         <li className="hover" onClick={() => setCurrentPage('contact')}>contact</li>

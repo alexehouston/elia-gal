@@ -1,41 +1,15 @@
-.Contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 50vh;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 25%;
-    animation: fadeInUp 1s;
-}
-
 .contact-info {
     font-size: 3vmin;
-    letter-spacing: 1vmin;
     padding: 0 0 0 50vmin;
     text-align: center;
 }
 
 .contact-info h1 {
-    width: 50vmin;
     border-bottom: 3px solid var(--bluegrey);
-}
-
-i {
-    font-size: 4vmin;
-    margin: -5vmin 0 4vmin 0;
-    transition: all 0.5s ease;
-}
-
-i:hover {
-    transform: scale(1.1);
 }
 
 .forms {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 3vmin;
@@ -46,15 +20,16 @@ i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2vmin;
+    font-size: 1.75vmin;
     font-weight: 200;
     letter-spacing: 0;
     background-color: rgb(70, 63, 59);
     border: 1px solid rgb(57, 51, 47);
     height: 5vmin;
-    width: 30vmin;
+    width: 25vmin;
     border-radius: 25px;
     transition: all 0.5s ease;
+    margin: 0 1vmin;
 }
 
 .button:hover {
@@ -65,72 +40,46 @@ i:hover {
 .salon {
     line-height: 1.5;
     border: 2px solid var(--bluegrey);
-    width: 28vmin;
     margin: 0 auto;
     padding: 2vmin;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.salon h2 {
-    font-family: 'Mitera', sans-serif;
-    font-size: 3vmin;
-    font-weight: 200;
-    margin-bottom: 0vmin;
-    margin: 0 auto;
-    border-bottom: 2px solid var(--bluegrey);
+.salon img {
+    filter: invert(1);
+}
+
+.salon iframe {
+    filter: saturate(.25) hue-rotate(190deg);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80%;
 }
 
 .contact-icons {
     display: flex;
     justify-content: center;
-    column-gap: 2vmin;
-    padding-top: 5vmin;
-}
-
-.salon li {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.75vmin;
-    letter-spacing: 0;
-    font-weight: 200;
-}
-
-@media only screen and (max-width: 1500px) {
-
-    .Contact {
-        animation: fadeInRight 1s;
-    }
-
-    .contact-info {
-        padding-left: 45vmin;
-    }
-
-    .salon {
-        width: 40vmin;
-    }
-    
-    .salon h2 {
-        font-size: 5vmin;
-    }
-
-    .salon li {
-        font-size: 2.5vmin;
-    }
+    column-gap: 4vmin;
+    padding: 2vmin 0 3vmin 0;
 }
 
 @media only screen and (max-width: 500px) {
 
-    i {
-        font-size: 5.5vmin;
+    .contact-info {
+        margin-top: -50vmin;
+        padding: 0;
     }
 
-    .contact-icons {
-        padding-top: 6vmin;
+    .salon {
+        padding: 4vmin;
     }
-    
+
     .button {
-        font-size: 2.5vmin;
-        width: 35vmin;
+        font-size: 3vmin;
+        height: 8vmin;
+        width: 40vmin;
+        margin-top: 2vmin;
     }
 }

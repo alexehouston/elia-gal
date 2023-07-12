@@ -1,18 +1,4 @@
-.About {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 50vh;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 25%;
-    animation: fadeInUp 1s;
-}
-
 .about-info h1 {
-    width: 50vmin;
     border-bottom: 3px solid var(--bluegrey);
 }
 
@@ -31,25 +17,19 @@
     font-size: 2vmin;
     font-weight: 200;
     letter-spacing: 0;
-    width: 50vmin;
-}
-
-@media only screen and (max-width: 1500px) {
-
-    .About {
-        animation: fadeInRight 1s;
-    }
-
-    .about-info {
-        padding-left: 45vmin;
-    }
+    width: 60vmin;
 }
 
 @media only screen and (max-width: 500px) {
 
+    .about-info {
+        margin-top: -50vmin;
+        padding: 0;
+    }
+
     .about-info p {
-        font-size: 2.5vmin;
+        font-size: 3vmin;
         font-weight: 300;
-        width: 40vmin;
+        width: 90%;
     }
 }

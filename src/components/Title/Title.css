@@ -1,52 +1,30 @@
 .Title {
     position: fixed;
-    width: 50vw;
-    right: 0;
-    top: 30%;
-    animation: fadeInRight 3s;
-}
-
-.Title h1, .Title h6 {
-    position: absolute;
+    right: 22%;
 }
 
 .Title h1 {
-    font-family: 'Mitera', serif;
+    font-family: vaR(--header-font);
     font-size: 11vmin;
-    animation: fadeInLeft 3s;
+    line-height: 0;
 }
 
 .Title h6 {
     font-weight: 200;
-    font-size: 3vmin;
-    letter-spacing: .5vmin;
-    padding: 15.5vmin 0 0 2.5vmin;
-}
-
-@media only screen and (max-width: 1500px) {
-
-    .Title {
-        top: 35%;
-        right: 5%;
-    }
-
-    .Title h1 {
-        width: 100vw;
-    }
-
-    .Title h6 {
-        padding-top: 15vmin;
-    }
+    font-size: 2.5vmin;
+    letter-spacing: .3vmin;
+    line-height: 0;
 }
 
 @media only screen and (max-width: 500px) {
 
     .Title {
-        top: 40%;
+        position: static;
+        text-align: center;
+        margin-top: -50vmin;
     }
-    
-    .Title h6 {
-        font-size: 3.5vmin;
-        padding-top: 12vmin;
+
+    .Title h1 {
+        font-size: 14vmin;
     }
 }

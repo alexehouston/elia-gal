@@ -2,9 +2,9 @@ import './Services.css';
 
 export default function Services({ setCurrentPage }) {
     return (
-        <div className="Services">
+        <div className="Services animate__animated animate__fadeInUp animate__slow">
             <div className="service-list">
-                <h1>services</h1>
+                <h1>SERVICES</h1>
                 <div className="service-list-items">
                     <div className="service-item">
                         <p>wash & style</p>

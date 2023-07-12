@@ -1,18 +1,4 @@
-.Services {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 50vh;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    top: 25%;
-    animation: fadeInUp 1s;
-}
-
 .Services h1 {
-    width: 50vmin;
     border-bottom: 3px solid var(--bluegrey);
     text-align: center;
 }
@@ -43,20 +29,14 @@
     padding-left: 2vmin;
 }
 
-@media only screen and (max-width: 1500px) {
-
-    .Services {
-        animation: fadeInRight 1s;
-    }
-
-    .service-list {
-        padding-left: 45vmin;
-    }
-}
-
 @media only screen and (max-width: 500px) {
 
+    .service-list {
+        margin-top: -50vmin;
+        padding: 0;
+    }
+
     .service-list-items {
-        font-size: 3vmin;
+        font-size: 4vmin;
     }
 }
