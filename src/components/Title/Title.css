@@ -27,4 +27,8 @@
     .Title h1 {
         font-size: 14vmin;
     }
+
+    .Title h6 {
+        font-size: 3.2vmin;
+    }
 }
