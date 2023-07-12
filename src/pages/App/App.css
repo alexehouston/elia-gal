@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
-  font-family: 'Ragasta';
-  src: url('/public/assets/Ragasta.ttf');
+  font-family: 'Mitera';
+  src: url('/public/assets/fonts/Mitera.otf');
 }
 
 :root {
@@ -21,7 +21,8 @@ html {
 }
 
 h1 {
-  font-family: 'Ragasta', serif;
+  font-family: 'Mitera', serif;
+  font-size: 5vmin;
 }
 
 a {

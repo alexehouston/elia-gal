@@ -9,7 +9,7 @@ export default function Contact() {
                 &nbsp;&nbsp;&nbsp;
                 <a href="mailto:galxbeauty@gmail.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a>
                 <div className="salon">
-                    <h2>KASHMIR</h2>
+                    <h2>kashmir</h2>
                     <div className="contact-icons">
                         <li><a href="https://www.kashmirextensions.com/" target="_blank" rel="noreferrer"><i className="fa-solid fa-globe"></i></a></li>
                         <li id="kashmir-ig"><a href="https://www.instagram.com/kashmirextensions/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
