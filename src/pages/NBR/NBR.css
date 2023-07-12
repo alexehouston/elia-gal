@@ -53,46 +53,36 @@
     right: 32%;
 }
 
-@media only screen and (max-width: 1500px) {
-
-    .NBR {
-        height: 58vh;
-    }
-    
-    .nbr-info, .nbr-questions {
-        padding: 0 0 0 40vmin;
-    }
-
-    .nbr-questions {
-        width: 50vw;
-    }
-
-    .nbr-questions p {
-        text-shadow: rgb(50, 50, 50) 1px 0 5px;
-    }
-
-    .scroll {
-        right: 20%;
-        text-shadow: rgb(50, 50, 50) 1px 0 5px;
-        color: white;
-    }
-}
-
 @media only screen and (max-width: 500px) {
 
     .NBR {
-        height: 60vh;
+        position: static;
+        margin-top: -50vmin;
     }
 
+    .NBR, .nbr-info, .nbr-questions {
+        padding: 0;
+    }
+
+    .NBR h1, .nbr-questions {
+        width: auto;
+        margin: 5vmin;
+    }
+
+    .nbr-questions h4 {
+        font-size: 3vmin;
+    }
+    
     .nbr-questions p {
-        font-size: 2vmin;
-        padding: 2vmin;
-        background-color: rgba(0, 0, 0, 0.35);
-        border-radius: 10px;
+        font-size: 2.5vmin;
+        font-weight: 200;
+        padding: 0 2vmin;
     }
 
     .scroll {
-        color: black;
-        bottom: 5%;
+        font-size: 4vmin;
+        position: static;
+        color: #fff;
+        margin-top: 5vmin;
     }
 }
