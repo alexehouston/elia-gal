@@ -6,7 +6,6 @@ export default function Contact() {
             <div className="contact-info">
                 <h1>contact</h1>
                 <div className="forms">
-                    <div className="button"><a href="https://form.jotform.com/galxbeauty/information-request-form" target="_blank" rel="noreferrer">model form</a></div>
                     <div className="button"><a href="https://form.jotform.com/83400706294151" target="_blank" rel="noreferrer">nbr extensions form</a></div>
                 </div>
                 <div className="salon">
