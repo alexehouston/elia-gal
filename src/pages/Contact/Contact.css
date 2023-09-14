@@ -12,8 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    row-gap: 3vmin;
-    margin-top: 4vmin;
+    margin-bottom: 4vmin;
 }
 
 .button {
@@ -29,7 +28,7 @@
     width: 25vmin;
     border-radius: 25px;
     transition: all 0.5s ease;
-    margin: 0 1vmin;
+    margin: 0 2vmin;
 }
 
 .button:hover {
@@ -43,7 +42,7 @@
     margin: 0 auto;
     padding: 2vmin;
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
