@@ -2,12 +2,11 @@
     font-size: 2vmin;
     font-weight: 300;
     list-style-type: none;
-    padding: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    column-gap: 5vmin;
-    padding: 4vmin;
+    column-gap: 6vmin;
+    padding: 2vmin 4vmin;
 }
 
 .Nav h1 {
@@ -48,5 +47,6 @@
     .Nav h1 {
         font-size: 5vmin;
         left: 5%;
+        top: 0.25%;
     }
 }
